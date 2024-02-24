@@ -72,10 +72,10 @@ brew install libimobiledevice
      Referenced from: /opt/homebrew/Cellar/ifuse-mac/1.1.4/bin/ifuse
    ```
 
-   Try linking the correct `libplist` version:
+   Try linking the correct `libplist` version. Copy the whole line including the ():
 
    ```sh
-   ( cd "$(brew --prefix)/opt/libplist/lib/" && ln -s libplist-2.0.4.dylib libplist-2.0.3.dylib )
+   (cd "$(brew --prefix)/opt/libplist/lib/" && ln -s libplist-2.0.4.dylib libplist-2.0.3.dylib)
    ```
 
    For details, see [this guide](https://github.com/asbjornu).
