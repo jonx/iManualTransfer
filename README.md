@@ -57,7 +57,7 @@ brew install libimobiledevice
    brew install gromgit/fuse/ifuse-mac # version 1.1.4
    ```
 
-   Thanks to Chuck Batson for the instructions. Visit [cbatson/how-to-install-ifuse-on-macos.md]([https://github.com/gromgit/homebrew-fuse](https://gist.github.com/cbatson/01a20a44c5c1a70ed3218c32d643e65d)) for more details.
+   Thanks to Chuck Batson for the instructions. Visit [cbatson/how-to-install-ifuse-on-macos.md](https://gist.github.com/cbatson/01a20a44c5c1a70ed3218c32d643e65d) for more details.
 
 4. **Restart your Mac** to ensure `ifuse` is correctly added to your PATH.
 
